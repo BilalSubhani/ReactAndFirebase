@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #333;
+  color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #3a3a3a;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #333;
+}
+
+tbody tr:hover {
+  background-color: #555;
+}
